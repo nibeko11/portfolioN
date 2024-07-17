@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: 'Inter', sans-serif;
+    color: #303031;
+}
+.navbar li {  
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.section1 {
+    max-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+}
+.topleft {
+    width: 50%;
+}
+.topright {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.topright .meimg {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.meimg {
+    height: auto;
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(180, 177, 9);
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.box ul {
+    list-style-type: none;
+}
+.box ul li {
+    margin: 12px 2px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.section2 {
+    margin-top: 20px;
+}
+.text-center2 {
+    margin-bottom: 40px;
+    padding: 0 8vw;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects ul {
+    list-style: none;
+}
+.section3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.html {
+    width: 50px;
+    height: auto;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    font-family: 'Inter', sans-serif;
+    color: #66645E;
+    font-size: smaller;
+}
